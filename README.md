@@ -53,13 +53,13 @@ Podemos instalar o *Pipenv* via *pip*: `pip install pipenv`.
 
 No diretório do projeto:
 
-1. Crie um novo *virtual environments* e instale as dependências do projeto: `pipenv install`
+1. Crie um novo *virtual environment* e instale as dependências do projeto: `pipenv install`
 
 ## Execução
 
 No diretório do projeto:
 
-1. Ative o *virtual environments*: `pipenv shell`
+1. Ative o *virtual environment*: `pipenv shell`
 1. Faça o processo de migração:
 	1. `python manage.py makemigrations`
 	1. `python manage.py migrate`
