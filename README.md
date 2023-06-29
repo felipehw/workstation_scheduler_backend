@@ -60,6 +60,9 @@ No diretório do projeto:
 No diretório do projeto:
 
 1. Ative o *virtual environments*: `pipenv shell`
+1. Faça o processo de migração:
+	1. `python manage.py makemigrations`
+	1. `python manage.py migrate`
 1. Execute o projeto: `python manage.py runserver 9001`
 
 A aplicação estará rodando em <http://127.0.0.1:9001/>.
